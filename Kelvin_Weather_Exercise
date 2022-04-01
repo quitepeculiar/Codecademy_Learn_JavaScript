@@ -1,0 +1,43 @@
+// Part of Codecademy's Learn JavaScript course
+
+// The forecast today
+const kelvin = 293;
+
+// Celsius is 273 degrees less than Kelvin
+const celsius = kelvin - 273;
+
+console.log(`The temperature is ${celsius} degrees Celsius.`);
+
+// Fahrenheit formula from Celsius
+let fahrenheit = celsius * (9/5) + 32;
+// Rounding the decimal number
+fahrenheit = Math.floor(fahrenheit);
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+// Newton practice
+
+let newton = celsius * (33/100);
+newton = Math.floor(newton);
+console.log(`The temperature is ${newton} degrees Newton.`)
+
+
+// Running the code again with a different Kelvin temp
+const kelvinTwo = 0;
+
+// Celsius is 273 degrees less than Kelvin
+const celsiusTwo = kelvinTwo - 273;
+
+console.log(`The temperature is ${celsiusTwo} degrees Celsius.`);
+
+// Fahrenheit formula from Celsius
+let fahrenheitTwo = celsiusTwo * (9/5) + 32;
+// Rounding the decimal number
+fahrenheitTwo = Math.floor(fahrenheitTwo);
+
+console.log(`The temperature is ${fahrenheitTwo} degrees Fahrenheit.`);
+
+let newtonTwo = celsiusTwo * (33/100);
+newtonTwo = Math.floor(newtonTwo);
+console.log(`The temperature is ${newtonTwo} degrees Newton.`);
+
