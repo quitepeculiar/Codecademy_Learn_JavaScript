@@ -1,0 +1,27 @@
+// Codecademy Learn Javascript: Dog Years
+
+// I don't actually believe in the concept of Dog Years, because dogs, cats and other animals can just be their sweet selves without having to put them in some weird human age category.
+
+// Setting up a variable equal to my age
+const myAge = 40;
+
+// Per the exercise: "The first two years of a dog’s life count as 10.5 dog years each."
+let earlyYears = 2;
+earlyYears *= 10.5
+
+// Per the exercise: "Each year following equates to 4 dog years."
+let laterYears = myAge - 2
+laterYears *= 4
+
+console.log(earlyYears);
+console.log(laterYears);
+
+// Calculating my age in dog years to make me feel uber-good about myself...
+let myAgeInDogYears = earlyYears + laterYears
+
+const myName = 'Doreen'
+
+// Skipping step 8 because it's not really useful
+
+console.log(`Hello, my name is ${myName}. I am ${myAge} years old in human years, which allegedly is ${myAgeInDogYears} in dog years.`)
+
